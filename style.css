@@ -1,0 +1,16 @@
+.titulo{
+    color: purple;
+}
+h1{
+    font-family: times new roman;
+    text-align: center;
+}
+#subtitulo{
+    color: greenyellow;
+}
+.negrito{
+    color: red;
+}
+body{
+    background-color: rgb(235, 213, 186);
+}

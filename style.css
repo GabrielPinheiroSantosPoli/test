@@ -4,6 +4,7 @@
 }
 
 body{
+    padding-top: 80px;
     background-color: #E5E4F7;
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@ body{
 }
 
 header{
+    position: fixed;
     display: flex;
     background-color: #FFFDFD;
     width: 100%;
@@ -113,10 +115,9 @@ main{
 
 #turma{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    padding: 40px;
 }
 
 #turma .title{
@@ -134,7 +135,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 100px;
+    gap: 120px;
 }
 
 #turma  .container-img{
